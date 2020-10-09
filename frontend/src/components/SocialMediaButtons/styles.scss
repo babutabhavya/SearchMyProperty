@@ -1,0 +1,67 @@
+.social-media {
+  a {
+    display: inline-block;
+    position: relative;
+    margin: 1rem;
+  }
+}
+
+article {
+  border-radius: 1rem;
+  cursor: pointer;
+  display: block;
+  background-color: #333;
+  box-shadow: 0 0 6px -2px #000, 0 0 45px -20px #000;
+  color: #fff;
+  transform: perspective(300px) rotateY(0deg);
+  transition: transform 0.4s linear, background-color 0s linear 0.2s,
+    color 0s linear 0.2s;
+  a:hover & {
+    transform: perspective(300px) rotateY(180deg);
+    color: #eee;
+    transition: transform 0.2s linear, background-color 0s linear 0.1s,
+      color 0s linear 0.1s;
+  }
+  a:nth-child(1):hover & {
+    background-color: #3b5998;
+  }
+  a:nth-child(2):hover & {
+    background-color: #00aced;
+  }
+  a:nth-child(3):hover & {
+    background-color: #cb2027;
+  }
+  span {
+    transition: transform 0s linear 0.2s, text-shadow 0s linear 0.2s;
+    display: block;
+    -webkit-font-smoothing: subpixel-antialiased;
+    a:hover & {
+      transition: transform 0s linear 0.1s, text-shadow 0s linear 0.1s;
+      transform: scale(-1, 1);
+      text-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  article {
+    line-height: 4rem;
+  }
+  .social-media {
+    a {
+      width: 20%;
+    }
+  }
+}
+
+@media screen and (min-width: 601px) {
+  article {
+    line-height: 4.5rem;
+  }
+
+  .social-media {
+    a {
+      width: 4vw;
+    }
+  }
+}

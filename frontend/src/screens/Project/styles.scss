@@ -1,0 +1,250 @@
+.project-banner-image {
+  width: 100vw;
+  height: 90vh;
+}
+
+.project-description-container {
+  .row {
+    background-color: white;
+    .col:nth-child(1) {
+      padding: 2rem 3rem 5rem 3rem !important;
+      h2 {
+        font-size: 3rem;
+      }
+      p {
+        color: black !important;
+      }
+    }
+  }
+}
+
+.project-highlights-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  h2 {
+    padding: 3rem 0rem 3rem 0rem;
+    font-size: 3rem;
+  }
+  img {
+    height: inherit;
+    position: absolute;
+    left: 0;
+    width: inherit;
+  }
+  .row {
+    padding-right: 15px;
+    padding-left: 15px;
+    .col {
+      h2 {
+        font-size: 3rem;
+      }
+    }
+  }
+  .row:nth-child(1) {
+    background: none;
+  }
+}
+
+.project-image-gallery-container {
+  > div {
+    background-color: white;
+
+    h2 {
+      font-size: 3rem;
+      padding: 2rem;
+    }
+  }
+}
+
+.project-floor-plan-container {
+  .row {
+    .col:nth-child(1) {
+      background-color: #353434 !important;
+    }
+  }
+}
+
+.project-title {
+  font-size: 3rem;
+}
+
+.project-features-container {
+  .features-content-container {
+    padding: 2rem 3rem 5rem 3rem !important;
+    background-color: #353434 !important;
+  }
+}
+
+.about-the-developer-container {
+  height: max-content;
+  .row {
+    .col:nth-child(1) {
+      padding: 2rem 2rem 5rem 3rem !important;
+      background-color: #353434 !important;
+      div {
+        p {
+          color: white !important;
+          padding: 1.2rem;
+        }
+      }
+    }
+  }
+}
+
+.location-advantages-container {
+  .row {
+    .col:nth-child(2) {
+      padding: 2rem 2rem 5rem 3rem !important;
+      background-color: #353434 !important;
+      div:nth-child(1) {
+        h2 {
+          font-size: 3rem;
+        }
+      }
+    }
+  }
+}
+
+.nav-tabs {
+  padding: 1rem;
+  background-color: red;
+  .active {
+    color: black !important;
+    background-color: white;
+  }
+}
+
+.location-desc {
+  padding: 1rem 1rem 1rem 1rem;
+  p {
+    width: 80%;
+    color: white !important;
+  }
+}
+
+.location-advantages-description-container {
+  padding: 0rem 0rem 5rem 0rem;
+}
+
+.project-custom-button {
+  border-color: white !important;
+  color: white !important;
+  width: 70%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+}
+
+.project-custom-button:hover {
+  color: black !important;
+}
+
+.project-custom-button:before,
+.project-custom-button:after {
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: white;
+  color: black !important;
+}
+
+.project-subtitle-container {
+  p {
+    color: white !important;
+  }
+}
+
+.features-sub-content-container {
+  padding-bottom: 2rem;
+  .features-row {
+    .col {
+      div {
+        padding: 1.5rem;
+        h2 {
+          font-size: 1.5rem !important;
+        }
+      }
+      p {
+        font-size: 1rem !important;
+        padding-right: 1rem;
+        color: white !important;
+      }
+    }
+  }
+}
+
+.project-contact-container {
+  background-color: rgba($color: #353434, $alpha: 0.85);
+
+  img {
+    width: inherit;
+    height: inherit;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: -10;
+  }
+  .row {
+    height: inherit;
+  }
+  p {
+    color: white !important;
+  }
+}
+
+.video-column {
+  padding: 2rem !important;
+}
+.gallery-image:hover .item-overlay.top {
+  top: 0%;
+  cursor: pointer;
+}
+
+.item-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+  z-index: 300;
+  -moz-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+  -webkit-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+  transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+}
+
+.gallery-image {
+  border: 1px solid #333;
+  img {
+    position: relative;
+    z-index: 100;
+  }
+}
+
+.item-overlay.top {
+  top: 100%;
+}
+
+.item-overlay {
+  div {
+    padding: 1rem;
+    border: 2px solid #eca829;
+    background: none;
+    width: max-content;
+    height: max-content;
+    position: relative;
+  }
+}
+/* end of misc. CSS */
+
+.schedule-visit-button-container {
+  width: 20vw;
+}

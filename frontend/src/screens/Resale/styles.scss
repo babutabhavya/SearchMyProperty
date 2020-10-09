@@ -1,0 +1,57 @@
+.location-dropdown-container {
+  .dropdown {
+    button {
+      width: 15vw !important;
+      background: none;
+      transition: 500ms;
+    }
+    button:hover {
+      background-color: #eca829;
+      color: black !important;
+    }
+    .dropdown-toggle {
+      color: white !important;
+      font-size: 2rem;
+      // background: none;
+    }
+    .dropdown-menu {
+      .dropdown-item {
+        background: none;
+        color: white;
+        transition: 400ms;
+      }
+      .dropdown-item:hover {
+        background-color: #cdcdcd;
+        color: black;
+      }
+    }
+  }
+}
+
+.custom-filters {
+  .dropdown {
+    button {
+      width: 15vw !important;
+      color: white !important;
+      background: none;
+      transition: 500ms;
+    }
+    .dropdown-menu {
+      max-height: 300px;
+      overflow: auto;
+    }
+  }
+}
+
+.resale-container {
+  margin-right: none !important;
+}
+
+.right-resale-col {
+  right: 0;
+}
+
+.scrolled-top-resale {
+  top: 15%;
+  bottom: 70%;
+}

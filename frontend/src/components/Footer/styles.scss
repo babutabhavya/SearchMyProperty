@@ -1,0 +1,33 @@
+.footer-container {
+  padding-top: 0.1rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.footer-col {
+  margin-top: 2rem;
+  margin-right: 2rem;
+  .footer-title {
+    p {
+      font-size: 1.5rem !important;
+    }
+    color: #eca829;
+    border-bottom: 5px solid #eca829;
+    margin-bottom: 1rem;
+  }
+  .footer-links {
+    margin-bottom: 1rem;
+    a {
+      color: #eca829 !important;
+    }
+  }
+}
+
+.insta-icon {
+  color: palevioletred;
+}
+
+.twitter-icon {
+  color: #00aced;
+}

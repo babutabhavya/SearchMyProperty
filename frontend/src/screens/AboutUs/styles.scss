@@ -1,0 +1,22 @@
+.about-us-title {
+  padding-bottom: 1rem;
+  h2 {
+    text-align: center;
+  }
+}
+
+hr.sep-3 {
+  border: none;
+  height: 1px;
+  background-image: linear-gradient(to right, gold, #eca829, gold);
+}
+hr.sep-3::after {
+  content: "§";
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(60deg);
+  transform-origin: 50% 50%;
+  padding: 1rem;
+  color: #eca829;
+}

@@ -1,0 +1,48 @@
+.frame {
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  border: 0.5px solid #eca829;
+  position: fixed;
+  z-index: 100;
+}
+.home-btn-container {
+  z-index: 2000;
+  bottom: 20vh;
+}
+
+.home-btn-container-desktop {
+  left: 33%;
+}
+
+.home-btn-container-mobile {
+  left: 15%;
+}
+
+.home-btn {
+  width: 35vw;
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
+  font-size: 1.5vw;
+  letter-spacing: 0.3rem;
+}
+
+.home-btn-mobile {
+  width: 70vw;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-size: 3.5vw;
+  letter-spacing: 0.3rem;
+}
+
+.mobile-home {
+  position: fixed;
+  top: 0;
+  padding: 1vw 2.5vw;
+  font-size: 2vw;
+  top: 20px;
+  right: 20px;
+}

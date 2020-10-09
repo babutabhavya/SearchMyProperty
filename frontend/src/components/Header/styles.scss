@@ -1,0 +1,28 @@
+.header-container {
+  height: 13vh;
+}
+
+.scroll {
+  background-color: black;
+}
+.transparent {
+  background: none;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.header-button {
+  position: relative;
+  right: 1.5vw;
+  padding: 1vh 1vw;
+  padding-right: 1vw;
+  font-size: 1.5vw;
+  letter-spacing: 0.2rem;
+}
+
+.active-nav-link {
+  color: #eca829 !important;
+  border-bottom: 2px solid #eca829;
+}
